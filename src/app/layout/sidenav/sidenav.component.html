@@ -1,0 +1,28 @@
+<div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">{{ 'home.navigation' | translate }} </div>
+      <div class="list-group list-group-flush">
+        <a [routerLink]="['product', language]" style=" pointer-events: none;" class="list-group-item list-group-item-action bg-light">{{ 'home.home' | translate }}</a>
+        <a [routerLink]="['product', language]"  style=" pointer-events: none;" class="list-group-item list-group-item-action bg-light">{{ 'home.product' | translate }} <span class="badge badge-pill badge-dark">{{countitems}}</span></a>
+        <a [routerLink]="['company', language]" style=" pointer-events: none;" class="list-group-item list-group-item-action bg-light">{{ 'home.company' | translate }}</a>
+        <a [routerLink]="['contact', language]" style=" pointer-events: none;" class="list-group-item list-group-item-action bg-light">{{ 'home.contact' | translate }}</a>
+       
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+  
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+  
+      <br>
+  
+      <div class="container-fluid">
+        <h1 class="mt-4">{{ 'home.content' | translate }}</h1>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+  
+  </div>

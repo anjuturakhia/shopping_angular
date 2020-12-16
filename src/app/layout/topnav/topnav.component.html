@@ -1,0 +1,56 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="https://dcassetcdn.com/design_img/1559024/551167/551167_7840631_1559024_911ff84c_image.png" style="height: 50px;width:50px;">
+        </div>
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+            {{countitems}} {{'home.items' | translate}} / {{'home.symbol' | translate}} {{totalprice}} 
+        </div>
+
+    </div>
+
+</div>
+<nav class="navbar navbar-fixed-top navbar-dark">
+    
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+      
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['login', language]">{{ 'home.home' | translate }}</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['product', language]" >{{ 'home.product' | translate }} <span class="badge badge-pill badge-light">{{countitems}}</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['company', language]">{{ 'home.company' | translate }}</a>
+              </li>
+
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['contact', language]">{{ 'home.contact' | translate }}</a>
+              </li>
+      
+          </ul>
+
+          <!-- <input type="button" [(ngModel)]="namecopy" (click)="logout(loginvalue)" name="name" value="namecopy" placeholder="name" />{{namecopy}} -->
+
+         
+
+        <select #langSelect (change)="useLanguage(langSelect.value)">
+        <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+        </select>
+        </div>
+      </nav>
+  </nav>
+
+ 

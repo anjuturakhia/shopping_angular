@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="col-md-12 row">
+
+        <div class="col-md-6">
+            {{ 'home.title' | translate }}
+            <hr>
+            {{ 'home.address' | translate }}
+<br>
+<hr>
+{{ 'home.phone' | translate }}
+<br>
+<hr>
+{{ 'home.email' | translate }}
+
+        </div>
+
+        <div class="col-md-6">
+            <div style="text-align:center">
+                <h2>{{ 'home.contact' | translate }}</h2>
+              </div>
+              <div class="row">
+                <div class="">
+                  <form [formGroup]="f" novalidate>
+                    <label for="fname">{{ 'home.name' | translate }}</label>
+                    <input type="text" id="name" formControlName="name" name="name" placeholder="Your name..">
+                    <label for="lname">{{ 'home.emailid' | translate }}</label>
+                    <input type="text" id="email" formControlName="email" name="email" placeholder="Your Email Address..">
+                    <label for="lname">{{ 'home.telephone' | translate }}</label>
+                    <input type="text" id="telephone" formControlName="telephone" name="telephone" placeholder="Your telephone number..">
+                   
+                    <label for="subject">{{ 'home.comment' | translate }}</label>
+                    <textarea id="subject" name="comment" formControlName="comment" placeholder="Write something.." style="height:170px"></textarea>
+                    <button type="submit" (click)="onSubmit(modalTemplate)" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+              </div>
+        </div>
+    </div>
+   
+  </div>
+  

@@ -1,0 +1,71 @@
+{
+    "home": {
+        "home": "घर",
+        "product": "उत्पाद",
+        "company": "कंपनी",
+        "contact": "संपर्क करें",
+        "items" :"आइटम",
+      "pageTitle": "हिंदी",
+      "symbol": "रु.",
+      "content": "सामग्री",
+      "login":"लॉगइन फॉर्म",
+      "addtocart": "कार्ट में डालें",
+      "loggedin" : "पहले से ही लॉगिन है",
+      "accesspages": "अब आप कंपनी और संपर्क टैब तक पहुँच सकते हैं !!",
+      "password":"कुंजिका",
+      "navigation": "पथ प्रदर्शन",
+      "phone" : "फोन का समर्थन: +91 (832) 297 6020",
+      "email" : "ईमेल पता कार्यालय: office@cdmx.in",
+      "name":"नाम", 
+      "emailid":"ईमेल पता", 
+      "telephone":"मोबाइल", 
+      "comment":"टिप्पणी", 
+      "title": "कार्यालय का पता",
+      "contactus": "संपर्क करें",
+      "address": "मुख्यालय और विकास केंद्र गोवा कोडमैक्स आईटी सॉल्यूशंस प्रा। लिमिटेड कार्यालय संख्या A - 201, 202, द्वितीय तल, एशियन पिनेकल, बैंक ऑफ इंडिया, फतोर्दा, गोवा, भारत (403602)",
+      "products": [
+        {
+          "id": "001",
+          "name": "Mi LED स्मार्ट टीवी 4A 108 सेमी (43)",
+          "price": 22999,
+          "image": "https://rukminim1.flixcart.com/image/832/832/jefzonk0/television/r/a/f/mi-l43m5-ai-original-imaf34hgjzc4xr62.jpeg?q=70"
+        
+        },
+        {
+          "id": "002",
+          "name": "Vu 80 सेमी (32 इंच) एचडी रेडी एलईडी टीवी",
+          "price": 15999,
+          "image": "https://rukminim1.flixcart.com/image/612/612/jdhp47k0/television/m/6/w/vu-32k160m-original-imaf27fyb4kuayaf.jpeg?q=70"
+          
+        },
+        {
+          "id": "003",
+          "name": "माइक्रोमैक्स 81 सेमी (32 इंच) एचडी रेडी एलईडी टीवी",
+          "price": 11999,
+          "image": "https://rukminim1.flixcart.com/image/612/612/j7f2qvk0/television/5/p/8/micromax-32t8361hd-original-imaexntv64hkgssg.jpeg?q=70"
+         
+        },
+        {
+          "id": "004",
+          "name": "थॉमसन एलईडी स्मार्ट टीवी बी 9 प्रो 80 सेमी (32)",
+          "price": 24000,
+          "image": "https://rukminim1.flixcart.com/image/612/612/ji95yfk0/television/g/f/6/thomson-b9-pro-32m3277-original-imaf637gjtzxhhzh.jpeg?q=70"
+         
+        },
+        {
+          "id": "005",
+          "name": "पैनासोनिक 109 सेमी (43 इंच) अल्ट्रा एचडी (4K) एलईडी टीवी",
+          "price": 41000,
+          "image": "https://rukminim1.flixcart.com/image/612/612/jhuvjww0/television/j/t/a/panasonic-th-43ex480dx-original-imaf5s8fhundck3u.jpeg?q=70"
+         
+        },
+        {
+          "id": "006",
+          "name": "पैनासोनिक 109 सेमी (55 इंच) अल्ट्रा एचडी (4K) एलईडी टीवी",
+          "price": 15400,
+          "image": "https://rukminim1.flixcart.com/image/612/612/jhuvjww0/television/j/t/a/panasonic-th-43ex480dx-original-imaf5s8fhundck3u.jpeg?q=70"
+         
+        }
+      ]
+    }
+  }

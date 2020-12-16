@@ -1,0 +1,18 @@
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color:rgb(86, 109, 97);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+  }
+
+  
+  .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.25rem !important;
+  }
